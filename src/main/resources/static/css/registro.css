@@ -1,0 +1,36 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	
+}
+.form-register{
+	
+	width:500px;
+	background:#606060;
+	padding:30px;
+	margin:auto;
+	margin-top :100px;
+	border-radius: 4px;
+	color:white;
+}
+.form-register .btn{
+	width:auto;
+	border:none;
+	padding:12px;
+	margin:16px 0;
+	font-size: 16px;
+	
+}
+
+
+.form-regi{
+	
+	width:800px;
+	background:#606060;
+	padding:30px;
+	margin:auto;
+	margin-top :100px;
+	border-radius: 4px;
+	color:white;
+}

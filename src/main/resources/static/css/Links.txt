@@ -1,0 +1,26 @@
+OpenJDK
+https://jdk.java.net/18/
+
+Java RE
+https://www.java.com/es/download/ie_manual.jsp
+
+Intellij IDEA
+https://www.jetbrains.com/es-es/idea/download/#section=windows
+
+Tomcat
+https://tomcat.apache.org/download-10.cgi
+
+JDBC Oracle
+https://www.oracle.com/mx/database/technologies/appdev/jdbc-downloads.html
+
+JDBC MySQL
+https://dev.mysql.com/downloads/connector/j/?os=26
+
+Oracle
+https://www.oracle.com/mx/database/technologies/xe-downloads.html
+
+SQLDevelopper
+https://www.oracle.com/database/sqldeveloper/technologies/download/
+
+Spring
+https://spring.io/tools

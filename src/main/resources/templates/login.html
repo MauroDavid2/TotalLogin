@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+    <head th:replace="layouts/base-layout :: head"></head>
+<link rel="stylesheet" th:href="@{/css/Fondo.css}" />
+
+<body>
+
+<div class="parent clearfix">
+    <div class="bg-illustration">
+     <img class="logo-img ng-star-inserted" th:src="@{/css/totalplay.png}" alt="logo banco ezteca">
+      <div class="burger-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+    </div>
+    
+    
+    
+    
+    <div class="container mt-5">
+
+        <div class="row justify-content-center">
+            <div class="col-md-6 formulario">
+             <form id="loginform" method="post" th:action="@{/auth/login-post}" role="form">
+                <div th:if="${param.error}" class="alert alert-danger mb-3">Credenciales incorrectas</div>
+                <div class="card">
+                    <div class="card-header"><h4>Iniciar session</h4></div>
+                    <div class="card-body">
+
+                       
+
+                            <div class="form-group mx-sm-4">
+                                <label class="col-md-4"> Usuario</label>
+                                <input type="text" name="username" class="form-control col-md-7"/>
+                            </div>
+                            <div class="row form-group mx-sm-4">
+                                <label class="col-md-4">Contraseña</label>
+                                <input type="password" name="password" class="form-control col-md-7"/>
+                            </div>
+                        
+                       
+                            <a th:href="@{/auth/login}" class="card-link mx-sm-4">Login </a>
+                            
+                            
+                            <a th:href="@{registro}" class="card-link mx-sm-4"> Registro </a>
+                        
+                            <div class="row form-group">
+                                <input type="submit" class="btn btn-success btn-block col-md-7 offset-3" value="Continuar"/>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
